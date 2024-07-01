@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #1f1f1f;
+    color:#fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+section{
+     text-align:center;
+     padding:2rem 0;
+   color:000000;
+}
+
+.input-container {
+    margin-top: 1rem;
+}
+
+#nameInput {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+}
+
+.gender-buttons {
+    margin-top: 1rem;
+}
+
+.gender-buttons button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    background-color: #34b7eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gender-buttons button:hover {
+    background-color: #555;
+}
+
+section#about {
+    background-color: #333;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.social-links a:hover {
+    color: #bbb;
+}
+
+#themeToggle {
+    background-color: #333;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#themeToggle:hover {
+    background-color: #555;
+}
